@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Environment secrets
+.env
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Vector DB & Storage
+*.db
+*.sqlite3
+data/milvus_rag.db*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS specific
+Thumbs.db
+.DS_Store
